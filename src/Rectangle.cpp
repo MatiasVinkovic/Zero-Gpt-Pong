@@ -18,7 +18,6 @@ void Rectangle::setPosition(float new_x, float new_y) {
 
 float Rectangle::getPositionY() {
     return y;
-
 }
 
 float Rectangle::getPositionX() {
@@ -36,6 +35,6 @@ sf::RectangleShape Rectangle::getShape() {
 
 void Rectangle::move(int moveCoeff){
     //*value += moveCoeff*0.05;
-    y += moveCoeff*0.5;
+    y += moveCoeff*0.2;
     this->shape.setPosition(this->x,y);
 }

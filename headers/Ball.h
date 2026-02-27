@@ -21,6 +21,10 @@ class Ball {
 
 		int moveCoeffX, moveCoeffY;
 
+		// --- IL MANQUAIT ÇA ICI ---
+        sf::Clock boostTimer;
+        bool isAccelerated = false;
+
 
 	public:
 
@@ -29,6 +33,9 @@ class Ball {
 		void createBall();
 		void setPosition(float x, float y);
 		void startBallMovement(int new_moveCoeffX, int new_moveCoeffY);
+		void startBallMovementAcce(int new_moveCoeffX, int new_moveCoeffY, bool acceleration);
+
+		
 		sf::CircleShape getShape();
 		float getPositionX();
 		float getPositionY();

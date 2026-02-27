@@ -11,7 +11,7 @@ CXXFLAGS = -std=c++17 -I/opt/homebrew/opt/sfml@2/include
 LDFLAGS = -L/opt/homebrew/opt/sfml@2/lib -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio
 
 # Liste de tes fichiers sources
-SOURCES = main.cpp Rectangle.cpp Ball.cpp Collision.cpp
+SOURCES = main.cpp Rectangle.cpp Ball.cpp Collision.cpp Score.cpp
 
 # Génération automatique des fichiers objets (.o)
 OBJECTS = $(SOURCES:.cpp=.o)
