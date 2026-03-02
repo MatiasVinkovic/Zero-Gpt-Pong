@@ -1,5 +1,7 @@
 # Zero-Gpt-Pong
-In this world of AI, what about a challenge to code a Pong game in C++ completely from scratch without any use of AI ?
+In this world of AI, what about a challenge to code a 2 local players Pong game in C++ completely from scratch without any use of AI ?
+
+Much better, there is a booster key, nice.
 
 
 if you got the dependencies SFML 1.6, run by using : 
