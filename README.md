@@ -8,3 +8,6 @@ if you got the dependencies SFML 1.6, run by using :
 make
 
 ![Enregistrement de l’écran 2026-02-27 à 18 25 03](https://github.com/user-attachments/assets/068832a9-26ba-42f0-b80b-42ae699fd2f8)
+
+
+<img width="485" height="467" alt="Capture d’écran 2026-02-19 à 10 25 38" src="https://github.com/user-attachments/assets/fa85e968-ea44-403a-b6a7-12f68ed2dd44" />
